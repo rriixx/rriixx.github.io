@@ -1,1 +1,1 @@
-bauerpatrick.de
+patrickbauer.io website
