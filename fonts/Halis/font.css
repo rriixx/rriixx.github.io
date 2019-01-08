@@ -1,0 +1,5 @@
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/290956");
+
+@font-face {font-family: 'HalisGR-Black';src: url('webfonts/290956_2_0.eot');src: url('webfonts/290956_2_0.eot?#iefix') format('embedded-opentype'),url('webfonts/290956_2_0.woff') format('woff'),url('webfonts/290956_2_0.ttf') format('truetype');}
+@font-face {font-family: 'HalisGR-Thin';src: url('webfonts/290956_16_0.eot');src: url('webfonts/290956_16_0.eot?#iefix') format('embedded-opentype'),url('webfonts/290956_16_0.woff') format('woff'),url('webfonts/290956_16_0.ttf') format('truetype');}

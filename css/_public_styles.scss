@@ -1,0 +1,73 @@
+html, footer {
+	height: 100%;
+	background: #3023ae;
+	background: -moz-linear-gradient(-45deg,  #3023ae 0%, #e3493a 100%);
+	background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#3023ae), color-stop(100%,#e3493a));
+	background: -webkit-linear-gradient(-45deg,  #3023ae 0%,#e3493a 100%);
+	background: -o-linear-gradient(-45deg,  #3023ae 0%,#e3493a 100%);
+	background: -ms-linear-gradient(-45deg,  #3023ae 0%,#e3493a 100%);
+	background: linear-gradient(135deg,  #3023ae 0%,#e3493a 100%);
+	background-attachment: fixed;
+}
+
+body {
+	font-family: HalisGR-Thin;
+	font-size: 1em;
+	line-height: 1;
+	color: #FFF;
+	-webkit-transform: translate3d(0, 0, 0);
+}
+
+h1 {
+	-webkit-backface-visibility: hidden;
+	font-family: HalisGR-Black;
+	text-transform: uppercase;
+	font-size: 5em;
+	opacity: 0;
+	-webkit-transform: translateY(-50px);
+	-moz-transform: translateY(-50px);
+	-ms-transform: translateY(-50px);
+	-o-transform: translateY(-50px);
+	transform: translateY(-50px);
+	-webkit-transition: all 500ms ease-in-out;
+	-moz-transition: all 500ms ease-in-out;
+	-o-transition: all 500ms ease-in-out;
+	transition: all 500ms ease-in-out;
+}
+
+h2 {
+	-webkit-backface-visibility: hidden;
+	opacity: 0;
+	-webkit-transform: translateY(50px);
+	-moz-transform: translateY(50px);
+	-ms-transform: translateY(50px);
+	-o-transform: translateY(50px);
+	transform: translateY(50px);
+	-webkit-transition: all 500ms ease-in-out;
+	-moz-transition: all 500ms ease-in-out;
+	-o-transition: all 500ms ease-in-out;
+	transition: all 500ms ease-in-out;
+}
+
+h2, h3, h4 {
+	font-family: HalisGR-Thin;
+	text-transform: uppercase;
+	font-size: 2.5em;
+}
+
+a {
+	text-decoration: none;
+	color: #FFF;
+	-webkit-transition: all 200ms ease-in-out;
+	-moz-transition: all 200ms ease-in-out;
+	-o-transition: all 200ms ease-in-out;
+	transition: all 200ms ease-in-out;
+}
+
+a:hover {
+	color: #222;
+	-webkit-transition: all 200ms ease-in-out;
+	-moz-transition: all 200ms ease-in-out;
+	-o-transition: all 200ms ease-in-out;
+	transition: all 200ms ease-in-out;
+}
