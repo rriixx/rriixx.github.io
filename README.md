@@ -1,1 +1,1 @@
-patrickbauer.io website
+personal website
